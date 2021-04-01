@@ -1,0 +1,19 @@
+body{
+    background-color: #ff9100;
+  }
+  h1 {
+      color: #a72608;
+      font-style: italic;
+  }
+  
+  .main{
+    background-color: #fff;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #a72608;
+  }
+   p {
+    color: black;
+  }
