@@ -1,0 +1,25 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #2e282a;
+}
+li a{
+    display: block;
+    color: #ffe3e0;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+li a.ativa{
+    background-color: #ff7b53;
+    color: #2e282a;
+}
+li a:hover:not(.ativa){
+    background-color: #ffff82;
+    color: #2e282a;
+}
+
+h4 a{
+color: #ff3c38;
+}
