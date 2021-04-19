@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $("button").click(function(){
+          $("div").animate({left: '250px'})
+        })
+      })
+    </script>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <!-- <script src="script.js"></script> -->
+    <button>Start Animation</button>
+    <p>Por defeito todo elemento HTML tem uma posição estática. Mas com Js ou Jquery você consegue animar</p>
+    <div style="background: #ffd369; height: 180px; width: 180px; position:absolute;"></div>
+  </body>
+</html>
