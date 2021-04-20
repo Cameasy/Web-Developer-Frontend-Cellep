@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+     $(document).ready(function(){
+       $("#flip").click(function(){
+         $("#painel").slideDown("slow")
+       })
+     }
+     ) 
+    </script>
+    <style>
+      #painel, #flip{
+        padding: 5px;
+        text-align: center;
+        background-color: orangered;
+        border: solid 1px white;
+        color: white;
+      }
+      #painel{
+        padding: 50px;
+        display: none;
+      }
+    </style>
+    
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <!-- <script src="script.js"></script> -->
+    <div id="flip">Clique para deslizar para baixo o painel</div>
+    <div id="painel">Olá Devs!</div>
+  </body>
+</html>
